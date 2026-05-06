@@ -94,20 +94,3 @@ Output goes to the `build/` folder, ready to deploy on Vercel, Netlify, or GitHu
 npx serve -s build -l 3000
 ```
 Open http://localhost:3000
-
-### 📱 Mobile - Local Network
-**Option 1: Development Server**
-1. `npm start`
-2. Find your IP: `ipconfig` (look for "Wireless LAN adapter Wi-Fi: IPv4 Address")
-3. On phone (same WiFi): http://YOUR-IP:3000
-
-**Option 2: Production Build**
-1. `npm run build`
-2. `npx serve -s build -l 8000`
-3. Phone: http://YOUR-IP:8000
-
-### ☁️ Online (Share Link) - Free
-- Drag `build/` to [Netlify](https://app.netlify.com/drop) or [Vercel](https://vercel.com)
-- Instant URL to share/open anywhere!
-
-**✅ Fully Responsive** — Tested on mobile (hamburger menu, stacked layouts).
