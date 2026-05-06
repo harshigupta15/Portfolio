@@ -3,6 +3,7 @@
 A stunning, animated, fully responsive developer portfolio built with React, Tailwind CSS, and Framer Motion.
 
 ---
+Live : https://portfolio-xq7e.vercel.app/
 
 ## ✨ Features
 
